@@ -12,3 +12,17 @@ C:\Users\School & Work\source\repos\JCT88\Small-C-Sharp-Projects\Blackjack\obj\D
 C:\Users\School & Work\source\repos\JCT88\Small-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.dll
 C:\Users\School & Work\source\repos\JCT88\Small-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.pdb
 C:\Users\School & Work\source\repos\JCT88\Small-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.genruntimeconfig.cache
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.exe
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.deps.json
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.runtimeconfig.json
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.runtimeconfig.dev.json
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.dll
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Blackjack.pdb
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.csproj.AssemblyReference.cache
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.AssemblyInfoInputs.cache
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.AssemblyInfo.cs
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.dll
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.pdb
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.genruntimeconfig.cache

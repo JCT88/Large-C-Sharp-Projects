@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\School & Work\\source\\repos\\JCT88\\Small-C-Sharp-Projects\\Blackjack\\Blackjack.csproj": {}
+    "C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\Blackjack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\School & Work\\source\\repos\\JCT88\\Small-C-Sharp-Projects\\Blackjack\\Blackjack.csproj": {
+    "C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\Blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Small-C-Sharp-Projects\\Blackjack\\Blackjack.csproj",
+        "projectUniqueName": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\Blackjack.csproj",
         "projectName": "Blackjack",
-        "projectPath": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Small-C-Sharp-Projects\\Blackjack\\Blackjack.csproj",
+        "projectPath": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\Blackjack.csproj",
         "packagesPath": "C:\\Users\\School & Work\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Small-C-Sharp-Projects\\Blackjack\\obj\\",
+        "outputPath": "C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\School & Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
