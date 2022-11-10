@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using BlackJack;
 
-namespace Blackjack
+namespace Casino
 {
     public class Dealer
     {
@@ -14,7 +16,12 @@ namespace Blackjack
         {
             // Take the first card, deal it
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            using (StreamWriter file = new StreamWriter("C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\log.txt", true))
+            {
+                file.WriteLine(card);
+            }
             // take the card out of the Deck.Cards List
             Deck.Cards.RemoveAt(0);
         }

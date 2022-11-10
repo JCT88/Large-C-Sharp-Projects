@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using BlackJack;
 
-namespace Blackjack
+namespace Casino.Blackjack
 {
     public class BlackjackGame : Game, IWalkAway
     {

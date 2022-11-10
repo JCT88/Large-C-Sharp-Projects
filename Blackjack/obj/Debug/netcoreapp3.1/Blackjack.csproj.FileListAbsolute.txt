@@ -26,3 +26,6 @@ C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\D
 C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.dll
 C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.pdb
 C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.genruntimeconfig.cache
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Casino.dll
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\bin\Debug\netcoreapp3.1\Casino.pdb
+C:\Users\School & Work\source\repos\JCT88\Large-C-Sharp-Projects\Blackjack\obj\Debug\netcoreapp3.1\Blackjack.csproj.CopyComplete

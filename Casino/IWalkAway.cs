@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Blackjack
+namespace Casino
 {
     // An interface can be used to add methods and properties to multiple classes
     // when inheriting isn't appropriate

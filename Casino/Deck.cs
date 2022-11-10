@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Casino;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Blackjack
+
+namespace BlackJack
 {
     public class Deck
     {
