@@ -17,6 +17,7 @@ namespace Casino.Blackjack
             // Reset each player
             foreach(Player player in Players)
             {
+                Console.WriteLine("Resetting player {0}", player.Name);
                 // Empty the players hand
                 player.Hand = new List<Card>();
                 // Reset Stay property
@@ -29,10 +30,20 @@ namespace Casino.Blackjack
             // Give the dealer a new deck
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle(3);
-            Console.WriteLine("Place your bet!");
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bet!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException(player.Name + " Id# " + player.Id + ", is a cheater. Ban them for life.");
+                }
                 bool successfullyBet = player.Bet(bet);
                 // If the user doesn't have enough for their bet
                 // and IsActivelyPlaying is true, then the Play()
@@ -44,6 +55,7 @@ namespace Casino.Blackjack
                 }
                 // Enter the user' bet into the Game.Bets dictionary
                 Bets[player] = bet;
+                Console.WriteLine("You've bet {0}. You're new balance is {1}", Bets[player], player.Balance);
             }
             // Deal all players 2 cards each
             for (int i  = 0; i < 2; i++)
@@ -117,7 +129,7 @@ namespace Casino.Blackjack
                     if (busted)
                     {
                         Dealer.Balance += Bets[player];
-                        Console.WriteLine("{0] busted! You lose a bet of {1}. Your balance is now {2}.", player.Name, Bets[player], player.Balance);
+                        Console.WriteLine("{0} busted! You lose a bet of {1}. Your balance is now {2}.", player.Name, Bets[player], player.Balance);
                         Console.WriteLine("Do you want to play again?");
                         answer = Console.ReadLine().ToLower();
                         if(answer == "yes" || answer == "yeah")
@@ -127,6 +139,7 @@ namespace Casino.Blackjack
                         else
                         {
                             player.IsActivelyPlaying = false;
+                            break;
                         }
                     }
                 }
@@ -184,17 +197,17 @@ namespace Casino.Blackjack
                 // If the player wins
                 else if (playerWon == true)
                 {
-                    Console.WriteLine("{0} won {1}!", player.Name, Bets[player]);
                     // Give the player their bet x 2
                     player.Balance += (Bets[player] * 2);
                     Dealer.Balance -= Bets[player];
+                    Console.WriteLine("{0} won {1}! You're new balance is {2}", player.Name, Bets[player], player.Balance);
                 }
                 // If the dealer wins
                 else
                 {
-                    Console.WriteLine("Dealer wins {0}!", Bets[player]);
                     player.Balance -= Bets[player];
                     Dealer.Balance += Bets[player];
+                    Console.WriteLine("Dealer wins {0}! {1} your new balance is {2}.", Bets[player], player.Name, player.Balance);
                 }
                 // Check if the user wants to play again
                 Console.WriteLine("Play again?");

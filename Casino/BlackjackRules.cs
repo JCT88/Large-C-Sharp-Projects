@@ -13,6 +13,7 @@ namespace Casino.Blackjack
         {
             [Face.Two] = 2,
             [Face.Three] = 3,
+            [Face.Four] = 4,
             [Face.Five] = 5,
             [Face.Six] = 6,
             [Face.Seven] = 7,

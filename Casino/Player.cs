@@ -18,6 +18,7 @@ namespace Casino
         public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
+        public Guid Id { get; set; }
         public bool IsActivelyPlaying { get; set; }
         // This Stay property should be put into a new BlackjackPlayer class that would be less abstract
         public bool Stay { get; set; }
@@ -25,7 +26,7 @@ namespace Casino
         public bool Bet(int amount)
         {
             // check if the user has enough to make their bet
-            if (Balance - amount < 0)
+            if ((Balance - amount) < 0)
             {
                 Console.WriteLine("You do not have enough to make that bet");
                 return false;

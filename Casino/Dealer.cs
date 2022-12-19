@@ -18,8 +18,10 @@ namespace Casino
             Hand.Add(Deck.Cards.First());
             string card = string.Format(Deck.Cards.First().ToString() + "\n");
             Console.WriteLine(card);
+            // Log to a text file
             using (StreamWriter file = new StreamWriter("C:\\Users\\School & Work\\source\\repos\\JCT88\\Large-C-Sharp-Projects\\Blackjack\\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
             // take the card out of the Deck.Cards List
